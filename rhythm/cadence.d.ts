@@ -1,4 +1,4 @@
-declare namespace cadence {
+declare namespace rhythm {
     class Point {
         x: number;
         y: number;
@@ -30,7 +30,7 @@ declare namespace cadence {
         updateFromDisplayObject(x: number, y: number, scaleX: number, scaleY: number, rotation: number): void;
     }
 }
-declare namespace cadence {
+declare namespace rhythm {
     namespace RES {
         interface Processor {
             load(url: string, callback: Function): void;
@@ -47,7 +47,7 @@ declare namespace cadence {
         function map(type: string, processor: Processor): void;
     }
 }
-declare namespace cadence {
+declare namespace rhythm {
     type Ticker_Listener_Type = (deltaTime: number) => void;
     function setTimeout(func: Function, delayTime: number): void;
     function setInterval(func: Function, delayTime: number): number;
@@ -61,7 +61,7 @@ declare namespace cadence {
         notify(deltaTime: number): void;
     }
 }
-declare namespace cadence {
+declare namespace rhythm {
     enum TouchEventsType {
         MOUSEDOWN = 0,
         MOUSEUP = 1,
@@ -90,7 +90,7 @@ declare namespace cadence {
         constructor(type: TouchEventsType, func: Function, obj: any, capture?: boolean, priority?: number);
     }
 }
-declare namespace cadence {
+declare namespace rhythm {
     type MovieClipData = {
         name: string;
         frames: MovieClipFrameData[];
@@ -134,7 +134,7 @@ declare namespace cadence {
         removeChild(child: DisplayObject): void;
         hitTest(x: number, y: number): DisplayObject;
     }
-    class Stage extends cadence.DisplayObjectContainer {
+    class Stage extends rhythm.DisplayObjectContainer {
         static stageX: number;
         static stageY: number;
         static instance: Stage;
@@ -200,7 +200,7 @@ declare namespace cadence {
         height: number;
     }
 }
-declare namespace cadence {
+declare namespace rhythm {
     function setMain(main: any): void;
     let run: (canvas: HTMLCanvasElement) => Stage;
 }
