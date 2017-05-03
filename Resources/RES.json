@@ -1,0 +1,46 @@
+{
+	"resources": [
+		{
+			"name": "delete.png",
+			"type": "image",
+			"url": "delete.png",
+			"width":128,
+			"height": 72
+		},
+        {
+            "name": "save.png",
+			"type": "image",
+			"url": "save.png",
+			"width":128,
+			"height": 72
+        },
+		{
+            "name": "add.png",
+			"type": "image",
+			"url": "add.png",
+			"width":128,
+			"height": 72
+        },
+		{
+            "name": "hayatenogotoku.png",
+			"type": "image",
+			"url": "hayatenogotoku.png",
+			"width":127,
+			"height": 200
+        },
+		{
+            "name": "notlives.png",
+			"type": "image",
+			"url": "notlives.png",
+			"width":141,
+			"height": 200
+        },
+		{
+            "name": "schoolrumble.png",
+			"type": "image",
+			"url": "schoolrumble.png",
+			"width":135,
+			"height": 200
+        },
+	]
+}

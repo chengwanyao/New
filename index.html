@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+</head>
+
+<body>
+    <canvas width="1920" height="1280" id = "app"></canvas>
+    <script src="./cadence/cadence.js"></script>
+    <script src="./lib/renderer/listItem.js"></script>
+    <script src="./lib/renderer/bookList.js"></script>
+    <script src="./lib/renderer/gui.js"></script>
+    <script>
+        document.write(process.versions.electron)
+        let gui = require('./lib/renderer/gui.js')
+        gui.run();
+    </script>
+</body>
+
+</html>

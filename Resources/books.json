@@ -1,0 +1,16 @@
+{
+	"books": [
+		{
+			"id": "1",
+			"name": "校园迷糊大王",
+			"author": "小林尽",
+			"cover": "schoolrumble.png"
+		},
+		{
+			"id": "2",
+			"name": "NotLives",
+			"author": "乌丸渡",
+			"cover": "notlives.png"
+		}
+	]
+}
